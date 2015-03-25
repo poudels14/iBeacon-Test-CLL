@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B83FA071AC2748E002AB67B /* beep-07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1B83FA061AC2748E002AB67B /* beep-07.wav */; };
+		1B83FA091AC2775A002AB67B /* beep-07-low-tempo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1B83FA081AC2775A002AB67B /* beep-07-low-tempo.wav */; };
 		1BDA4D2C1AC262FF00CD7DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA4D2B1AC262FF00CD7DE4 /* AppDelegate.swift */; };
 		1BDA4D2E1AC262FF00CD7DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA4D2D1AC262FF00CD7DE4 /* ViewController.swift */; };
 		1BDA4D311AC262FF00CD7DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA4D2F1AC262FF00CD7DE4 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B83FA061AC2748E002AB67B /* beep-07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-07.wav"; sourceTree = "<group>"; };
+		1B83FA081AC2775A002AB67B /* beep-07-low-tempo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-07-low-tempo.wav"; sourceTree = "<group>"; };
 		1BDA4D261AC262FF00CD7DE4 /* iBeacon-Test-CLL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iBeacon-Test-CLL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDA4D2A1AC262FF00CD7DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BDA4D2B1AC262FF00CD7DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 		1BDA4D1D1AC262FF00CD7DE4 = {
 			isa = PBXGroup;
 			children = (
+				1B83FA081AC2775A002AB67B /* beep-07-low-tempo.wav */,
+				1B83FA061AC2748E002AB67B /* beep-07.wav */,
 				1BDA4D281AC262FF00CD7DE4 /* iBeacon-Test-CLL */,
 				1BDA4D3E1AC262FF00CD7DE4 /* iBeacon-Test-CLLTests */,
 				1BDA4D271AC262FF00CD7DE4 /* Products */,
@@ -195,6 +201,8 @@
 				1BDA4D311AC262FF00CD7DE4 /* Main.storyboard in Resources */,
 				1BDA4D361AC262FF00CD7DE4 /* LaunchScreen.xib in Resources */,
 				1BDA4D331AC262FF00CD7DE4 /* Images.xcassets in Resources */,
+				1B83FA071AC2748E002AB67B /* beep-07.wav in Resources */,
+				1B83FA091AC2775A002AB67B /* beep-07-low-tempo.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +347,7 @@
 				INFOPLIST_FILE = "iBeacon-Test-CLL/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +358,7 @@
 				INFOPLIST_FILE = "iBeacon-Test-CLL/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +415,7 @@
 				1BDA4D471AC262FF00CD7DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BDA4D481AC262FF00CD7DE4 /* Build configuration list for PBXNativeTarget "iBeacon-Test-CLLTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				1BDA4D4A1AC262FF00CD7DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
