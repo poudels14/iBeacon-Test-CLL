@@ -72,8 +72,6 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
         
         for b in beacons {
             playSound = true
-            println(b.proximity.rawValue)
-            println(b.rssi)
             if (b.rssi > -20){
                 ap = AVAudioPlayer(contentsOfURL: beaconCloseSound, error: &error)
                 ap.play()
@@ -105,7 +103,7 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
     
     
     func setUUID() {
-        println("New UUID set: \(textField.text)")
+        textField.resignFirstResponder()
         var r3 = CLBeaconRegion(proximityUUID: NSUUID(UUIDString: "\(textField.text)"), identifier: "new Beacon")
         if (isMonitoring){
             locationManager.stopRangingBeaconsInRegion(r2)
